@@ -22,3 +22,6 @@ Source of truth: `plan/tasks.json`. Run `node scripts/build-plan.mjs` to regener
 | Positioning unclear | Finish T01 before any build work |
 | Content runs out | Bank 10 posts before launch (T05) |
 | Email not delivered | Send test to 3 providers before launch |
+
+## AI video track
+Phase 0 (7 days, 15 min/day) produces the launch video and social cuts. See `docs/ai-video-track.md`.

@@ -1,5 +1,61 @@
 [
   {
+    "title": "L1 Day 1: First AI scene - describe a MAExbrand scene to Claude, get a full shot plan",
+    "body": "**Phase:** 0-Learn (15 min/day)\n**Window:** 2026-11-09 to 2026-11-09\n**Deliverable:** Shot plan for the brand intro scene",
+    "labels": [
+      "maexbrand",
+      "0-Learn (15 min/day)"
+    ]
+  },
+  {
+    "title": "L2 Day 2: AI visuals - generate cinematic images and animate them",
+    "body": "**Phase:** 0-Learn (15 min/day)\n**Window:** 2026-11-10 to 2026-11-10\n**Deliverable:** 3 brand key visuals (check palette in brand-guide.md)",
+    "labels": [
+      "maexbrand",
+      "0-Learn (15 min/day)"
+    ]
+  },
+  {
+    "title": "L3 Day 3: AI voice and audio - voice, music, sound effects",
+    "body": "**Phase:** 0-Learn (15 min/day)\n**Window:** 2026-11-11 to 2026-11-11\n**Deliverable:** Voiceover + music bed for launch video (use only voices you have rights to)",
+    "labels": [
+      "maexbrand",
+      "0-Learn (15 min/day)"
+    ]
+  },
+  {
+    "title": "L4 Day 4: Talking heads and avatars - AI presenter with HeyGen + Claude",
+    "body": "**Phase:** 0-Learn (15 min/day)\n**Window:** 2026-11-12 to 2026-11-12\n**Deliverable:** 30s welcome clip for site and welcome email",
+    "labels": [
+      "maexbrand",
+      "0-Learn (15 min/day)"
+    ]
+  },
+  {
+    "title": "L5 Day 5: Edit and distribute - Runway, CapCut, Opus Clip",
+    "body": "**Phase:** 0-Learn (15 min/day)\n**Window:** 2026-11-13 to 2026-11-13\n**Deliverable:** Edit pipeline + 3 vertical cuts for social",
+    "labels": [
+      "maexbrand",
+      "0-Learn (15 min/day)"
+    ]
+  },
+  {
+    "title": "L6 Day 6: Real video project - idea to final cut",
+    "body": "**Phase:** 0-Learn (15 min/day)\n**Window:** 2026-11-14 to 2026-11-14\n**Deliverable:** Launch video v1 (feeds T05/T07/T08)",
+    "labels": [
+      "maexbrand",
+      "0-Learn (15 min/day)"
+    ]
+  },
+  {
+    "title": "L7 Day 7: Certificate review - tools recap",
+    "body": "**Phase:** 0-Learn (15 min/day)\n**Window:** 2026-11-15 to 2026-11-15\n**Deliverable:** Keep/drop decision per tool; update docs/ai-video-track.md",
+    "labels": [
+      "maexbrand",
+      "0-Learn (15 min/day)"
+    ]
+  },
+  {
     "title": "T01 Lock brand name, tagline, positioning",
     "body": "**Phase:** 1-Foundation\n**Window:** 2026-11-09 to 2026-11-11\n**Deliverable:** docs/brand-guide.md sections 1-2 filled in",
     "labels": [

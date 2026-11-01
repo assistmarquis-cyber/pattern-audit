@@ -2,6 +2,18 @@
 
 _Generated from plan/tasks.json. Do not edit by hand._
 
+## 0-Learn (15 min/day)
+
+| ID | Task | Owner | Start | Due | Deliverable |
+|---|---|---|---|---|---|
+| L1 | Day 1: First AI scene - describe a MAExbrand scene to Claude, get a full shot plan | Marquis | 2026-11-09 | 2026-11-09 | Shot plan for the brand intro scene |
+| L2 | Day 2: AI visuals - generate cinematic images and animate them | Marquis | 2026-11-10 | 2026-11-10 | 3 brand key visuals (check palette in brand-guide.md) |
+| L3 | Day 3: AI voice and audio - voice, music, sound effects | Marquis | 2026-11-11 | 2026-11-11 | Voiceover + music bed for launch video (use only voices you have rights to) |
+| L4 | Day 4: Talking heads and avatars - AI presenter with HeyGen + Claude | Marquis | 2026-11-12 | 2026-11-12 | 30s welcome clip for site and welcome email |
+| L5 | Day 5: Edit and distribute - Runway, CapCut, Opus Clip | Marquis | 2026-11-13 | 2026-11-13 | Edit pipeline + 3 vertical cuts for social |
+| L6 | Day 6: Real video project - idea to final cut | Marquis | 2026-11-14 | 2026-11-14 | Launch video v1 (feeds T05/T07/T08) |
+| L7 | Day 7: Certificate review - tools recap | Marquis | 2026-11-15 | 2026-11-15 | Keep/drop decision per tool; update docs/ai-video-track.md |
+
 ## 1-Foundation
 
 | ID | Task | Owner | Start | Due | Deliverable |

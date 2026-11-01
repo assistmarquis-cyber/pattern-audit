@@ -2,6 +2,62 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//MAExbrand//Plan//EN
 BEGIN:VEVENT
+UID:L1@maexbrand
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:L1 Day 1: First AI scene - describe a MAExbrand scene to Claude, get a full shot plan
+DESCRIPTION:Shot plan for the brand intro scene
+END:VEVENT
+BEGIN:VEVENT
+UID:L2@maexbrand
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:L2 Day 2: AI visuals - generate cinematic images and animate them
+DESCRIPTION:3 brand key visuals (check palette in brand-guide.md)
+END:VEVENT
+BEGIN:VEVENT
+UID:L3@maexbrand
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:L3 Day 3: AI voice and audio - voice, music, sound effects
+DESCRIPTION:Voiceover + music bed for launch video (use only voices you have rights to)
+END:VEVENT
+BEGIN:VEVENT
+UID:L4@maexbrand
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:L4 Day 4: Talking heads and avatars - AI presenter with HeyGen + Claude
+DESCRIPTION:30s welcome clip for site and welcome email
+END:VEVENT
+BEGIN:VEVENT
+UID:L5@maexbrand
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:L5 Day 5: Edit and distribute - Runway, CapCut, Opus Clip
+DESCRIPTION:Edit pipeline + 3 vertical cuts for social
+END:VEVENT
+BEGIN:VEVENT
+UID:L6@maexbrand
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:L6 Day 6: Real video project - idea to final cut
+DESCRIPTION:Launch video v1 (feeds T05/T07/T08)
+END:VEVENT
+BEGIN:VEVENT
+UID:L7@maexbrand
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:L7 Day 7: Certificate review - tools recap
+DESCRIPTION:Keep/drop decision per tool; update docs/ai-video-track.md
+END:VEVENT
+BEGIN:VEVENT
 UID:T01@maexbrand
 DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261109

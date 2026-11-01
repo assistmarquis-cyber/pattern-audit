@@ -2,14 +2,149 @@
   "project": "MAExbrand Launch",
   "start": "2026-11-09",
   "tasks": [
-    {"id": "T01", "phase": "1-Foundation", "title": "Lock brand name, tagline, positioning", "owner": "Marquis", "startDay": 0, "days": 3, "deliverable": "docs/brand-guide.md sections 1-2 filled in"},
-    {"id": "T02", "phase": "1-Foundation", "title": "Choose palette, fonts, logo direction", "owner": "Marquis", "startDay": 3, "days": 4, "deliverable": "brand-guide.md section 4 + site/styles.css tokens"},
-    {"id": "T03", "phase": "1-Foundation", "title": "Register domain and business email", "owner": "Marquis", "startDay": 0, "days": 2, "deliverable": "Domain + mailbox live"},
-    {"id": "T04", "phase": "2-Build", "title": "Finish landing site copy and publish to Netlify", "owner": "Marquis", "startDay": 7, "days": 5, "deliverable": "Live URL; scripts/check-site.mjs passes"},
-    {"id": "T05", "phase": "2-Build", "title": "Write 10 launch posts (X, LinkedIn, Instagram)", "owner": "Marquis", "startDay": 7, "days": 7, "deliverable": "content-calendar.md rows filled"},
-    {"id": "T06", "phase": "2-Build", "title": "Set up email capture + welcome sequence", "owner": "Marquis", "startDay": 10, "days": 4, "deliverable": "Form endpoint wired in site/index.html"},
-    {"id": "T07", "phase": "3-Launch", "title": "Schedule launch-week posts", "owner": "Marquis", "startDay": 14, "days": 2, "deliverable": "Posts queued in scheduler"},
-    {"id": "T08", "phase": "3-Launch", "title": "Launch day", "owner": "Marquis", "startDay": 17, "days": 1, "deliverable": "Announcement live on all channels"},
-    {"id": "T09", "phase": "4-Operate", "title": "Weekly review: metrics, content, pipeline", "owner": "Marquis", "startDay": 24, "days": 1, "deliverable": "Filled weekly-review template (docs/sops.md)"}
+    {
+      "id": "L1",
+      "phase": "0-Learn (15 min/day)",
+      "title": "Day 1: First AI scene - describe a MAExbrand scene to Claude, get a full shot plan",
+      "owner": "Marquis",
+      "startDay": 0,
+      "days": 1,
+      "deliverable": "Shot plan for the brand intro scene"
+    },
+    {
+      "id": "L2",
+      "phase": "0-Learn (15 min/day)",
+      "title": "Day 2: AI visuals - generate cinematic images and animate them",
+      "owner": "Marquis",
+      "startDay": 1,
+      "days": 1,
+      "deliverable": "3 brand key visuals (check palette in brand-guide.md)"
+    },
+    {
+      "id": "L3",
+      "phase": "0-Learn (15 min/day)",
+      "title": "Day 3: AI voice and audio - voice, music, sound effects",
+      "owner": "Marquis",
+      "startDay": 2,
+      "days": 1,
+      "deliverable": "Voiceover + music bed for launch video (use only voices you have rights to)"
+    },
+    {
+      "id": "L4",
+      "phase": "0-Learn (15 min/day)",
+      "title": "Day 4: Talking heads and avatars - AI presenter with HeyGen + Claude",
+      "owner": "Marquis",
+      "startDay": 3,
+      "days": 1,
+      "deliverable": "30s welcome clip for site and welcome email"
+    },
+    {
+      "id": "L5",
+      "phase": "0-Learn (15 min/day)",
+      "title": "Day 5: Edit and distribute - Runway, CapCut, Opus Clip",
+      "owner": "Marquis",
+      "startDay": 4,
+      "days": 1,
+      "deliverable": "Edit pipeline + 3 vertical cuts for social"
+    },
+    {
+      "id": "L6",
+      "phase": "0-Learn (15 min/day)",
+      "title": "Day 6: Real video project - idea to final cut",
+      "owner": "Marquis",
+      "startDay": 5,
+      "days": 1,
+      "deliverable": "Launch video v1 (feeds T05/T07/T08)"
+    },
+    {
+      "id": "L7",
+      "phase": "0-Learn (15 min/day)",
+      "title": "Day 7: Certificate review - tools recap",
+      "owner": "Marquis",
+      "startDay": 6,
+      "days": 1,
+      "deliverable": "Keep/drop decision per tool; update docs/ai-video-track.md"
+    },
+    {
+      "id": "T01",
+      "phase": "1-Foundation",
+      "title": "Lock brand name, tagline, positioning",
+      "owner": "Marquis",
+      "startDay": 0,
+      "days": 3,
+      "deliverable": "docs/brand-guide.md sections 1-2 filled in"
+    },
+    {
+      "id": "T02",
+      "phase": "1-Foundation",
+      "title": "Choose palette, fonts, logo direction",
+      "owner": "Marquis",
+      "startDay": 3,
+      "days": 4,
+      "deliverable": "brand-guide.md section 4 + site/styles.css tokens"
+    },
+    {
+      "id": "T03",
+      "phase": "1-Foundation",
+      "title": "Register domain and business email",
+      "owner": "Marquis",
+      "startDay": 0,
+      "days": 2,
+      "deliverable": "Domain + mailbox live"
+    },
+    {
+      "id": "T04",
+      "phase": "2-Build",
+      "title": "Finish landing site copy and publish to Netlify",
+      "owner": "Marquis",
+      "startDay": 7,
+      "days": 5,
+      "deliverable": "Live URL; scripts/check-site.mjs passes"
+    },
+    {
+      "id": "T05",
+      "phase": "2-Build",
+      "title": "Write 10 launch posts (X, LinkedIn, Instagram)",
+      "owner": "Marquis",
+      "startDay": 7,
+      "days": 7,
+      "deliverable": "content-calendar.md rows filled"
+    },
+    {
+      "id": "T06",
+      "phase": "2-Build",
+      "title": "Set up email capture + welcome sequence",
+      "owner": "Marquis",
+      "startDay": 10,
+      "days": 4,
+      "deliverable": "Form endpoint wired in site/index.html"
+    },
+    {
+      "id": "T07",
+      "phase": "3-Launch",
+      "title": "Schedule launch-week posts",
+      "owner": "Marquis",
+      "startDay": 14,
+      "days": 2,
+      "deliverable": "Posts queued in scheduler"
+    },
+    {
+      "id": "T08",
+      "phase": "3-Launch",
+      "title": "Launch day",
+      "owner": "Marquis",
+      "startDay": 17,
+      "days": 1,
+      "deliverable": "Announcement live on all channels"
+    },
+    {
+      "id": "T09",
+      "phase": "4-Operate",
+      "title": "Weekly review: metrics, content, pipeline",
+      "owner": "Marquis",
+      "startDay": 24,
+      "days": 1,
+      "deliverable": "Filled weekly-review template (docs/sops.md)"
+    }
   ]
 }
