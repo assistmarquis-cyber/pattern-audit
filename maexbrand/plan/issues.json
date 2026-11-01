@@ -1,0 +1,74 @@
+[
+  {
+    "title": "T01 Lock brand name, tagline, positioning",
+    "body": "**Phase:** 1-Foundation\n**Window:** 2026-11-09 to 2026-11-11\n**Deliverable:** docs/brand-guide.md sections 1-2 filled in",
+    "labels": [
+      "maexbrand",
+      "1-Foundation"
+    ]
+  },
+  {
+    "title": "T02 Choose palette, fonts, logo direction",
+    "body": "**Phase:** 1-Foundation\n**Window:** 2026-11-12 to 2026-11-15\n**Deliverable:** brand-guide.md section 4 + site/styles.css tokens",
+    "labels": [
+      "maexbrand",
+      "1-Foundation"
+    ]
+  },
+  {
+    "title": "T03 Register domain and business email",
+    "body": "**Phase:** 1-Foundation\n**Window:** 2026-11-09 to 2026-11-10\n**Deliverable:** Domain + mailbox live",
+    "labels": [
+      "maexbrand",
+      "1-Foundation"
+    ]
+  },
+  {
+    "title": "T04 Finish landing site copy and publish to Netlify",
+    "body": "**Phase:** 2-Build\n**Window:** 2026-11-16 to 2026-11-20\n**Deliverable:** Live URL; scripts/check-site.mjs passes",
+    "labels": [
+      "maexbrand",
+      "2-Build"
+    ]
+  },
+  {
+    "title": "T05 Write 10 launch posts (X, LinkedIn, Instagram)",
+    "body": "**Phase:** 2-Build\n**Window:** 2026-11-16 to 2026-11-22\n**Deliverable:** content-calendar.md rows filled",
+    "labels": [
+      "maexbrand",
+      "2-Build"
+    ]
+  },
+  {
+    "title": "T06 Set up email capture + welcome sequence",
+    "body": "**Phase:** 2-Build\n**Window:** 2026-11-19 to 2026-11-22\n**Deliverable:** Form endpoint wired in site/index.html",
+    "labels": [
+      "maexbrand",
+      "2-Build"
+    ]
+  },
+  {
+    "title": "T07 Schedule launch-week posts",
+    "body": "**Phase:** 3-Launch\n**Window:** 2026-11-23 to 2026-11-24\n**Deliverable:** Posts queued in scheduler",
+    "labels": [
+      "maexbrand",
+      "3-Launch"
+    ]
+  },
+  {
+    "title": "T08 Launch day",
+    "body": "**Phase:** 3-Launch\n**Window:** 2026-11-26 to 2026-11-26\n**Deliverable:** Announcement live on all channels",
+    "labels": [
+      "maexbrand",
+      "3-Launch"
+    ]
+  },
+  {
+    "title": "T09 Weekly review: metrics, content, pipeline",
+    "body": "**Phase:** 4-Operate\n**Window:** 2026-12-03 to 2026-12-03\n**Deliverable:** Filled weekly-review template (docs/sops.md)",
+    "labels": [
+      "maexbrand",
+      "4-Operate"
+    ]
+  }
+]

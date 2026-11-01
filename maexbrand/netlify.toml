@@ -1,0 +1,4 @@
+[build]
+  base = "maexbrand"
+  publish = "site"
+  command = "node scripts/check-site.mjs site"

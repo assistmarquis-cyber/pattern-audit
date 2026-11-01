@@ -1,0 +1,15 @@
+{
+  "project": "MAExbrand Launch",
+  "start": "2026-11-09",
+  "tasks": [
+    {"id": "T01", "phase": "1-Foundation", "title": "Lock brand name, tagline, positioning", "owner": "Marquis", "startDay": 0, "days": 3, "deliverable": "docs/brand-guide.md sections 1-2 filled in"},
+    {"id": "T02", "phase": "1-Foundation", "title": "Choose palette, fonts, logo direction", "owner": "Marquis", "startDay": 3, "days": 4, "deliverable": "brand-guide.md section 4 + site/styles.css tokens"},
+    {"id": "T03", "phase": "1-Foundation", "title": "Register domain and business email", "owner": "Marquis", "startDay": 0, "days": 2, "deliverable": "Domain + mailbox live"},
+    {"id": "T04", "phase": "2-Build", "title": "Finish landing site copy and publish to Netlify", "owner": "Marquis", "startDay": 7, "days": 5, "deliverable": "Live URL; scripts/check-site.mjs passes"},
+    {"id": "T05", "phase": "2-Build", "title": "Write 10 launch posts (X, LinkedIn, Instagram)", "owner": "Marquis", "startDay": 7, "days": 7, "deliverable": "content-calendar.md rows filled"},
+    {"id": "T06", "phase": "2-Build", "title": "Set up email capture + welcome sequence", "owner": "Marquis", "startDay": 10, "days": 4, "deliverable": "Form endpoint wired in site/index.html"},
+    {"id": "T07", "phase": "3-Launch", "title": "Schedule launch-week posts", "owner": "Marquis", "startDay": 14, "days": 2, "deliverable": "Posts queued in scheduler"},
+    {"id": "T08", "phase": "3-Launch", "title": "Launch day", "owner": "Marquis", "startDay": 17, "days": 1, "deliverable": "Announcement live on all channels"},
+    {"id": "T09", "phase": "4-Operate", "title": "Weekly review: metrics, content, pipeline", "owner": "Marquis", "startDay": 24, "days": 1, "deliverable": "Filled weekly-review template (docs/sops.md)"}
+  ]
+}
