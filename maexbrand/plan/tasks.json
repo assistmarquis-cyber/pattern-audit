@@ -48,6 +48,15 @@
       "deliverable": "Edit pipeline + 3 vertical cuts for social"
     },
     {
+      "id": "P1",
+      "phase": "0-Learn (15 min/day)",
+      "title": "Phone setup: teleprompter on home screen, CapCut installed, first 30s talking-head test",
+      "owner": "Marquis",
+      "startDay": 5,
+      "days": 1,
+      "deliverable": "docs/phone-talking-head-workflow.md checklist done"
+    },
+    {
       "id": "L6",
       "phase": "0-Learn (15 min/day)",
       "title": "Day 6: Real video project - idea to final cut",

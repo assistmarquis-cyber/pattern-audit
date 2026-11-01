@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Teleprompter - MAExbrand</title>
+<style>
+:root{--bg:#000;--fg:#fff;--accent:#e4572e}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font-family:system-ui,sans-serif}
+#setup{padding:max(1rem,env(safe-area-inset-top)) 1rem 1rem;display:flex;flex-direction:column;gap:.8rem;height:100%}
+textarea{flex:1;font:16px/1.5 system-ui;padding:.8rem;border-radius:8px;border:1px solid #555;background:#111;color:#fff;min-height:40vh}
+label{display:flex;justify-content:space-between;align-items:center;gap:1rem;font-size:15px}
+input[type=range]{flex:1}
+button{padding:1rem;font:600 18px system-ui;border:0;border-radius:10px;background:var(--accent);color:#fff}
+#stage{display:none;position:fixed;inset:0;background:#000}
+#scroll{position:absolute;inset:0;overflow:hidden;padding:40vh 1.2rem 60vh;font-weight:600;line-height:1.35;white-space:pre-wrap}
+#line{position:absolute;left:0;right:0;top:40%;border-top:2px solid var(--accent);opacity:.6;pointer-events:none}
+#hint{position:absolute;bottom:max(1rem,env(safe-area-inset-bottom));left:0;right:0;text-align:center;color:#888;font-size:13px}
+.mirror #scroll{transform:scaleX(-1)}
+</style>
+</head>
+<body>
+<div id="setup">
+  <strong>Teleprompter</strong>
+  <textarea id="text" placeholder="Paste your script. Blank lines = pauses." aria-label="Script"></textarea>
+  <label>Speed <input id="speed" type="range" min="10" max="150" value="45"></label>
+  <label>Text size <input id="size" type="range" min="24" max="72" value="40"></label>
+  <label>Mirror (for glass rigs) <input id="mirror" type="checkbox"></label>
+  <button id="go">Start</button>
+  <small style="color:#888">Tip: place the phone you read from just below your camera lens. Tap the screen to pause or resume. Triple-tap to exit.</small>
+</div>
+<div id="stage"><div id="scroll"></div><div id="line"></div><div id="hint">Tap: pause/resume - Triple-tap: exit</div></div>
+<script>
+const $ = id => document.getElementById(id);
+const store = { get(k){try{return localStorage.getItem(k)}catch{return null}}, set(k,v){try{localStorage.setItem(k,v)}catch{}} };
+$('text').value = store.get('tp-text') || '';
+let raf = 0, paused = false, last = 0, pos = 0, wake = null, taps = [];
+
+async function lock(){ try{ wake = await navigator.wakeLock?.request('screen'); }catch{} }
+function unlock(){ try{ wake?.release(); }catch{} wake = null; }
+
+function tick(t){
+  if(!paused){
+    const dt = (t - last) / 1000;
+    pos += +$('speed').value * dt;
+    $('scroll').scrollTop = pos;
+  }
+  last = t; raf = requestAnimationFrame(tick);
+}
+$('go').onclick = () => {
+  store.set('tp-text', $('text').value);
+  const s = $('scroll');
+  s.textContent = $('text').value || 'Paste a script first.';
+  s.style.fontSize = $('size').value + 'px';
+  document.body.classList.toggle('mirror', $('mirror').checked);
+  $('setup').style.display = 'none'; $('stage').style.display = 'block';
+  pos = 0; s.scrollTop = 0; paused = false; last = performance.now();
+  lock(); raf = requestAnimationFrame(tick);
+};
+$('stage').onclick = () => {
+  const n = Date.now(); taps = taps.filter(x => n - x < 600); taps.push(n);
+  if(taps.length >= 3){
+    cancelAnimationFrame(raf); unlock();
+    $('stage').style.display = 'none'; $('setup').style.display = 'flex'; return;
+  }
+  paused = !paused;
+};
+document.addEventListener('visibilitychange', () => { if(!document.hidden && $('stage').style.display === 'block') lock(); });
+</script>
+</body>
+</html>

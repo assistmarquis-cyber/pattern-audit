@@ -25,3 +25,4 @@ Source of truth: `plan/tasks.json`. Run `node scripts/build-plan.mjs` to regener
 
 ## AI video track
 Phase 0 (7 days, 15 min/day) produces the launch video and social cuts. See `docs/ai-video-track.md`.
+Phone-only production: `docs/phone-talking-head-workflow.md`, `site/teleprompter.html`, `scripts/make-scripts.mjs`.

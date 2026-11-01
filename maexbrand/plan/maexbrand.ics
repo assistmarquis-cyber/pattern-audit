@@ -42,6 +42,14 @@ SUMMARY:L5 Day 5: Edit and distribute - Runway, CapCut, Opus Clip
 DESCRIPTION:Edit pipeline + 3 vertical cuts for social
 END:VEVENT
 BEGIN:VEVENT
+UID:P1@maexbrand
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:P1 Phone setup: teleprompter on home screen, CapCut installed, first 30s talking-head test
+DESCRIPTION:docs/phone-talking-head-workflow.md checklist done
+END:VEVENT
+BEGIN:VEVENT
 UID:L6@maexbrand
 DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261114

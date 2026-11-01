@@ -11,6 +11,7 @@ _Generated from plan/tasks.json. Do not edit by hand._
 | L3 | Day 3: AI voice and audio - voice, music, sound effects | Marquis | 2026-11-11 | 2026-11-11 | Voiceover + music bed for launch video (use only voices you have rights to) |
 | L4 | Day 4: Talking heads and avatars - AI presenter with HeyGen + Claude | Marquis | 2026-11-12 | 2026-11-12 | 30s welcome clip for site and welcome email |
 | L5 | Day 5: Edit and distribute - Runway, CapCut, Opus Clip | Marquis | 2026-11-13 | 2026-11-13 | Edit pipeline + 3 vertical cuts for social |
+| P1 | Phone setup: teleprompter on home screen, CapCut installed, first 30s talking-head test | Marquis | 2026-11-14 | 2026-11-14 | docs/phone-talking-head-workflow.md checklist done |
 | L6 | Day 6: Real video project - idea to final cut | Marquis | 2026-11-14 | 2026-11-14 | Launch video v1 (feeds T05/T07/T08) |
 | L7 | Day 7: Certificate review - tools recap | Marquis | 2026-11-15 | 2026-11-15 | Keep/drop decision per tool; update docs/ai-video-track.md |
 

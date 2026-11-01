@@ -1,0 +1,8 @@
+{
+  "brand": "MAExbrand",
+  "cta": "Follow for more, and grab the free update at the link in my bio.",
+  "topics": [
+    {"slug": "why-i-started", "hook": "Here's why I started MAExbrand.", "points": ["TODO the problem you saw", "TODO what you built", "TODO who it's for"]},
+    {"slug": "one-tip", "hook": "One thing I wish I knew sooner.", "points": ["TODO the mistake", "TODO the fix", "TODO the result"]}
+  ]
+}
